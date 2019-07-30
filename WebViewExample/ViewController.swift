@@ -15,20 +15,14 @@ import WebKit
 
 class ViewController: UIViewController,WKNavigationDelegate {
     
-    @IBOutlet weak var webView: WKWebView!
+    @IBOutlet var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 //        load remote url
-//        let url = URL(string: "https://www.google.com")!
-//        webView.load(URLRequest(url: url))
-//        webView.allowsBackForwardNavigationGestures = true
-        
-//        load local html file
-        let url = Bundle.main.url(forResource: "example", withExtension: "html", subdirectory: "local_html")!
-        webView.loadFileURL(url, allowingReadAccessTo: url)
-        let request = URLRequest(url: url)
-        webView.load(request)
+        let url = URL(string: "https://prugoodprd.firebaseapp.com")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
     }
     
     override func loadView() {
