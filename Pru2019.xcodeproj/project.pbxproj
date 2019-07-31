@@ -192,10 +192,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = wayou;
+				ORGANIZATIONNAME = nhat;
 				TargetAttributes = {
 					30A923312182F6890034A367 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					30A923452182F68A0034A367 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -207,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 30A9232D2182F6890034A367 /* Build configuration list for PBXProject "WebViewExample" */;
+			buildConfigurationList = 30A9232D2182F6890034A367 /* Build configuration list for PBXProject "Pru2019" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -434,16 +435,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R2Q636P3UU;
 				INFOPLIST_FILE = WebViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wayou.WebViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhat.prudential;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -452,16 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = R2Q636P3UU;
 				INFOPLIST_FILE = WebViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wayou.WebViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhat.prudential;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -551,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30A9232D2182F6890034A367 /* Build configuration list for PBXProject "WebViewExample" */ = {
+		30A9232D2182F6890034A367 /* Build configuration list for PBXProject "Pru2019" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30A923582182F68A0034A367 /* Debug */,
